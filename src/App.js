@@ -1,17 +1,17 @@
-import React from 'react'
+import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Books from './components/Books';
-import Categories from './components/Categories';
+import BooksPage from './Pages/BooksPage';
+import CategoriesPage from './Pages/CategoriesPage';
+import Navbar from './components/Navbar';
 
-const App = () => {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Books />} />
-        <Route path="/categories" element={<Categories />} />
-      </Routes>
-    </BrowserRouter>
-  );
-}
+const App = () => (
+  <BrowserRouter>
+    <Navbar />
+    <Routes>
+      <Route path="/" element={<BooksPage />} />
+      <Route path="/categories" element={<CategoriesPage />} />
+    </Routes>
+  </BrowserRouter>
+);
 
 export default App;
