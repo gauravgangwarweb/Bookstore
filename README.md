@@ -123,7 +123,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd my-project
+  cd Bookstore
   npm install
 ```
 
@@ -132,7 +132,7 @@ Install this project with:
 To run the project, execute the following command:
 
 ```sh
-  nppm start
+  npm start
 ```
 
 ### Run tests
@@ -145,7 +145,9 @@ To run tests, run the following command:
 
 ### Deployment
 
- npm run build 
+```sh
+  npm run build
+```
 
 <!--
 Example:
