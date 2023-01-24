@@ -1,10 +1,29 @@
 <a name="readme-top"></a>
 
-<div align="center">
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-  <h3><b>Bookstore</b></h3>
+Modify this file to match your project and remove sections that don't apply.
 
-</div>
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+OPTIONAL SECTIONS:
+- FAQ
+
+After you're finished please remove all the comments and instructions!
+-->
 
 <!-- TABLE OF CONTENTS -->
 
@@ -12,31 +31,49 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Clone](#clone)
-  - [Run](#run)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- [🙏 Acknowledgements](#acknowledgements)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Bookstore <a name="about-project"></a>
+# 📖 [Book Store] <a name="about-project"></a>
 
-> Bookstore is a project created by the microverse student.
+**[Book Store]** is a Single page application. It is developed using React Library. It allows users to add new book, edit book, remove book and to manage their statuse on the book reading progress.
 
-## 🛠 Built With <a name="built-with">React and Tailwind</a>
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
- 
-- Fast
-- Modern design
+
+- **[Display book items]**
+- **[Add new Book item in book list]**
+- **[Delete Book item from book list]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -44,9 +81,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Here is a link to the live demo.
-
-- [Live Demo Coming Soon]()
+- [comming soon]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -54,22 +89,66 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
-### Clone
+### Prerequisites
 
-Clone this repository to your local machine:
+In order to run this project you need:
 
+```sh
+ node js installed
+ Git
+ VSCODE editor
+ Installed Web browser
+```
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  cd my-folder
   git clone https://github.com/gauravgangwarweb/Bookstore.git
+```
 
+### Install
 
-### Run 
+Install this project with:
 
-To run project, run the following command:
+```sh
+  cd Bookstore
+  npm install
+```
 
-  Open it in your code editer.
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  npm start
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  npm test
+```
+
+### Deployment
+
+```sh
+  npm run build
+```
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,11 +156,11 @@ To run project, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
-👤 Gaurav Gangwar
+👤 **Gaurav Gangwar**
 
 - GitHub: [@gauravgangwarweb](https://github.com/gauravgangwarweb)
+- Twitter: [@GauravGangwar51](https://twitter.com/GauravGangwar51)
+- LinkedIn: [@gauravgangwar](https://www.linkedin.com/in/gaurav-gangwar-5ab22b240/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,17 +168,9 @@ To run project, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[Add some functionalities]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank microverse for giving me this apportunity to create this project.
+- [ ] **[Add Book description]**
+- [ ] **[FUll website development]**
+- [ ] **[Test and Deploy]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,7 +178,9 @@ I would like to thank microverse for giving me this apportunity to create this p
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome !
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/gauravgangwarweb/Bookstore/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,7 +188,23 @@ Contributions, issues, and feature requests are welcome !
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please give a star...
+If you like this project please give a⭐️ and share with your friends.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank @Microverse.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **How to install redux toolkit?**
+
+  - `npm i react-redux @reduxjs/toolkit`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,6 +212,6 @@ If you like this project please give a star...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./MIT.md)) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
