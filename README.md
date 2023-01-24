@@ -73,12 +73,6 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details>
 
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">No DB</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
@@ -151,7 +145,7 @@ To run tests, run the following command:
 
 ### Deployment
 
-You can deploy this project using Github pages or renders.
+ npm run build 
 
 <!--
 Example:
