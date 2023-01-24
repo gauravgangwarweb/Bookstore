@@ -66,13 +66,6 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://nodejs.com/">Node.js</a></li>
-  </ul>
-</details>
-
 
 <!-- Features -->
 
