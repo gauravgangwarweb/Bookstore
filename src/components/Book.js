@@ -12,7 +12,15 @@ const Book = (props) => {
         <h4>{title}</h4>
         <p>{author}</p>
       </div>
-      <button className="border-2 border-black" type="button" onClick={() => { dispatch(removeBook(id)); }}>Remove</button>
+      <button
+        className="border-2 border-black"
+        type="button"
+        onClick={() => {
+          dispatch(removeBook(id));
+        }}
+      >
+        Remove
+      </button>
     </div>
   );
 };

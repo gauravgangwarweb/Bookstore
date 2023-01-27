@@ -18,7 +18,15 @@ const AddBookForm = () => {
           e.target.author.value = '';
         }}
       >
-        <input className="border-2 border-black" name="title" type="text" placeholder="Input title" onChange={(e) => setBook({ ...book, title: e.target.value, id: uuid() })} />
+        <input
+          className="border-2 border-black"
+          name="title"
+          type="text"
+          placeholder="Input title"
+          onChange={(e) => setBook({
+            ...book, title: e.target.value, item_id: uuid(), category: 'Fiction',
+          })}
+        />
         <input className="border-2 border-black" name="author" type="text" placeholder="Input author" onChange={(e) => setBook({ ...book, author: e.target.value })} />
         <input className="border-2 border-black" type="submit" />
       </form>
