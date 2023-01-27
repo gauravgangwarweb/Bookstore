@@ -11,8 +11,7 @@ const BooksList = () => {
   }, [dispatch]);
 
   return (
-    <div className="p-5">
-      <h2 className="text-center text-[30px] font-extrabold">Books List</h2>
+    <div className="p-5 border-b-2 w-[95%] flex flex-col self-center items-center4">
       { books.map((book) => (
         <Book key={book.item_id} title={book.title} author={book.author} id={book.item_id} />
       ))}
