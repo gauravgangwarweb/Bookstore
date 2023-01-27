@@ -8,9 +8,10 @@ const AddBookForm = () => {
   const [book, setBook] = useState({});
 
   return (
-    <div className="p-5">
+    <div className="mt-5 flex flex-col gap-5 pb-28 w-[90%] self-center">
+      <h2 className="font-bold text-[#888888] text-[20px]">ADD NEW BOOK</h2>
       <form
-        className="flex gap-3"
+        className="flex gap-5"
         onSubmit={(e) => {
           e.preventDefault();
           dispatch(addBook(book));
@@ -19,7 +20,7 @@ const AddBookForm = () => {
         }}
       >
         <input
-          className="border-2 border-black"
+          className="input-items w-[40%] p-2"
           name="title"
           type="text"
           placeholder="Input title"
@@ -27,8 +28,8 @@ const AddBookForm = () => {
             ...book, title: e.target.value, item_id: uuid(), category: 'Fiction',
           })}
         />
-        <input className="border-2 border-black" name="author" type="text" placeholder="Input author" onChange={(e) => setBook({ ...book, author: e.target.value })} />
-        <input className="border-2 border-black" type="submit" />
+        <input className="input-items w-[40%] p-2" name="author" type="text" placeholder="Input author" onChange={(e) => setBook({ ...book, author: e.target.value })} />
+        <input className="bg-[#0290ff] px-20 py-2" type="submit" value="ADD BOOK" />
       </form>
     </div>
   );
