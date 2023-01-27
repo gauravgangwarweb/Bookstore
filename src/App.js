@@ -9,11 +9,13 @@ import booksStore from './redux/configureStore';
 const App = () => (
   <Provider store={booksStore}>
     <BrowserRouter>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<BooksPage />} />
-        <Route path="/categories" element={<CategoriesPage />} />
-      </Routes>
+      <div className="main">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<BooksPage />} />
+          <Route path="/categories" element={<CategoriesPage />} />
+        </Routes>
+      </div>
     </BrowserRouter>
   </Provider>
 );
