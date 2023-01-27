@@ -4,4 +4,35 @@
 
 body {
   margin: 0;
+  padding: 4%;
+}
+
+.main {
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+
+.navbar {
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+
+.user-button {
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+
+.book-card {
+  box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+
+.progress-img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 5px solid #4386bf;
+  border-left-color: #e8e8e8;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.input-items {
+  box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
 }
