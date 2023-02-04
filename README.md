@@ -53,7 +53,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Book Store] <a name="about-project"></a>
 
-**[Book Store]** is a Single page application. It is developed using React Library. It allows users to add new book, edit book, remove book and to manage their statuse on the book reading progress.
+**[Book Store]** is a Single page application. It is developed using React Library. It allows users to add new book, edit book, remove book and to manage their status on the book reading progress.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -81,7 +81,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [comming soon]()
+- [Live demo](https://cheery-mooncake-8f3358.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
